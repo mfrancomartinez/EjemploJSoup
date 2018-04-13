@@ -28,7 +28,7 @@ public class EjemploJsoup {
     Elements links = doc.select("a");
       for (Element link : links) {
                
-        System.out.println("text: " + link.text());
+        System.out.println("contenido: " + link.text());
 
 
     
